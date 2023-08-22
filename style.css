@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#commentFormDiv, #commentsDiv {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#commentText {
+  width: 100%;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+}

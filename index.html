@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comment Approval App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Comment Approval App</h1>
+  
+  <div id="commentFormDiv">
+    <h2>Submit a Comment</h2>
+    <form id="commentForm">
+      <textarea id="commentText" rows="4" cols="50"></textarea>
+      <button type="submit">Submit Comment</button>
+    </form>
+  </div>
+  
+  <div id="commentsDiv">
+    <h2>Your Comments</h2>
+    <ul id="commentsList"></ul>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
