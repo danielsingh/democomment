@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple comment approval app",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.3",
     "jsonwebtoken": "^8.5.1",
     "body-parser": "^1.19.0"
   }
